@@ -8,7 +8,7 @@ while True:
         chars = string.ascii_letters + string.digits + '!@#$%^&*()'
         random.seed = (os.urandom(1024))
 
-        url = 'INSERT LINK HERE'
+        url = '# PUT YOUR LINK HERE'
 
         names = json.loads(open('names.json').read())
         for name in names:
